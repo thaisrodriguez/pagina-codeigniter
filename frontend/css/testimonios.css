@@ -1,0 +1,156 @@
+.m_testimonios{
+  color: #8cc3e7;
+}
+.full_width{
+  width: 100%;
+  /*background: url(../images/atencion/fondo_degrade.png) center repeat-x;*/
+}
+.nombre_tes{
+  color: #b3b3b3;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Signika', sans-serif !important;
+  margin: 0 !important
+}
+.cargo{
+  color: #8c8c8c;
+   font-family: 'Signika', sans-serif !important;
+   font-size: 10px;
+}
+.parrafos_test p{
+  color: #8cc3e7;
+  font-size: 11px;
+  font-family: 'Signika', sans-serif !important;
+}
+.b_testimonios{
+  width: 498px;
+  float: right;
+  padding: 10px;
+  background: url(../images/testimonios/transparencia.png);
+}
+.b_testimonios h3{
+  font-family: "Convergence",sans-serif;
+  font-size: 22px;
+  color: #8cc3e7;
+  font-style: italic;
+  letter-spacing: -1px;
+  border-bottom: 1px solid #8cc3e7;
+}
+.imagen_int{
+  max-width: 100%;
+  height: auto;
+}
+.titulo_interno{
+ width: 100%;
+ text-align: center;
+}
+.parrafo_interno{
+  width: 100%;
+  height: 206px;
+}
+.parrafo_atencion p{
+  color: #a3a3a3;
+  font-family: 'Signika', sans-serif !important;
+  font-size: 16px;
+  text-align: justify;
+}
+.tel_email{
+  color: #8cc3e7;
+  font-family: 'Convergence', sans-serif !important;
+  letter-spacing: -1px;
+  font-style: italic;
+  font-size: 17px;
+  font-weight: 800;
+}
+.fila{
+  color: #8cc3e7;
+  font-family: 'Signika', sans-serif !important;
+  font-size: 15px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+  border-bottom: 1px dashed #8cc3e7;
+  padding-bottom: 10px;
+}
+#scrollbar1{
+  margin: 0 !important;
+  width: 95% !important;
+}
+#scrollbar1 .viewport{
+  height: 197px !important;
+  background:  transparent !important;
+  margin-bottom: 15px;
+  height: 400px !important;
+}
+#scrollbar1 .overview{
+  padding-left:0 !important;
+  padding-right:0 !important; 
+}
+.imagen_tes{
+    display: inline-block;
+    vertical-align: top;
+    width: 27%;
+}
+.imagen_tes img{
+  max-width: 100%;
+  height: auto;
+}
+.testimonios{
+    display: inline-block;
+    width: 63%;
+    margin-left: 5%;
+}
+.form-control{
+  font-family: 'Signika', sans-serif !important;
+  color: #bdbdbd !important;
+  border:1px solid #abd3ed;
+  border-radius: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.botonf{
+  background: #8cc3e7 !important;
+  color: #fff;
+  font-family: 'Signika', sans-serif !important;
+  font-size: 13px;
+  border-radius: 0 !important;
+  width: 68px;
+  float: right;
+  margin: 0 5px
+}
+.c_obligatorios{
+  font-family: 'Signika', sans-serif !important;
+  font-size: 13px;
+  font-weight: 100;
+  color: #bdbdbd;
+}
+@media (max-width: 991px) {
+  .titulo_interno{
+    margin-top: 0 !important
+  }
+  #supersized li{
+    top: 80px !important
+  }
+}
+@media (max-width: 548px) {
+  .b_testimonios{
+    width: 100%;
+  }
+}
+@media (max-width: 361px) {
+  #supersized li{
+    top: 0 !important
+  }
+}
+@media (max-width: 335px) {
+  .imagen_int{
+    width: 100%;
+    max-width: none;
+  }
+  .c_obligatorios{
+    width: 100%;
+  }
+  .botonf{
+    float: none;
+  }
+}

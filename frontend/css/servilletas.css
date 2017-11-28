@@ -1,0 +1,51 @@
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+  background: #718748 !important
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #c7c7c7 !important;
+}
+.full_all_servilleta{  
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background: url(../images/productos/servilletas/textura_servilleta.jpg);
+}
+.center_wall_servilleta{
+  background: url(../images/productos/servilletas/fondo_servilleta.jpg) repeat-x top;
+  margin-top: 15px;
+  padding-top: 25px;
+}
+/* estados botones */
+a.active_ser{
+  text-decoration: underline;
+  color: #718748 !important;
+}
+.ser h2 a:hover{
+  color: #718748 !important;
+}
+/* end estados botones */
+@media (max-width: 991px) {
+    .center_wall_servilleta{
+      background: url(../images/productos/servilletas/fondo_servilleta.jpg) repeat-x 0 10%;
+    }
+}
+@media (max-width: 767px) {
+    .center_wall_servilleta{
+      background: none;
+    }
+	.f_smarth{
+		background: url(../images/productos/servilletas/fondo_servilleta.jpg) repeat-x top;
+		padding-top:23px;
+	}
+}
+@media (max-width: 390px) {
+    .bx-wrapper{
+      max-width: 230px !important;
+    }
+ 
+}
+@media (max-width: 361px) {
+
+}
+

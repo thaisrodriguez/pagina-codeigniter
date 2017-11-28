@@ -1,0 +1,222 @@
+
+@import url(http://fonts.googleapis.com/css?family=Signika:400,700,600,300);
+@import url(http://fonts.googleapis.com/css?family=Convergence);
+@font-face{
+  font-family:Signika Regular;
+  src:url(../tipografia/Signika-Regular.otf);  
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+}
+#wrapper{
+  display:table;
+  width:100%;
+  height:100%;
+  border-collapse:collapse;
+  min-height: 521px;
+}
+.sn_padding{
+ padding:0 !important
+}
+.sn_margin{
+ margin:0 !important
+}
+header,#content,#piepagina{
+  display:table-row;
+}
+header{
+ height: 80px;
+ z-index: 10000;
+ position: relative;
+}
+#centerlizer{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+}
+.navbar-brand{
+  height: 80px !important;
+  padding: 15px 0 0 !important; 
+}
+.navbar-fixed-top, .navbar-fixed-bottom{
+  z-index: 10300 !important;
+}
+.sociales{
+  margin: 10px 0 0;padding: 0;list-style: none;text-align: center;
+}
+.sociales li{
+  display: inline-block;
+}
+.sociales li a{
+  display: block; text-indent: -8000px; width: 25px; height: 24px; overflow: hidden;
+}
+.sociales li a:hover{
+  opacity: 0.8;
+}
+.socia_smarth{
+  display: none;
+}
+.menu{
+  display: none;
+  float: right;
+  margin: 16px 16px;
+}
+@media (max-width: 767px) {
+  .socia_smarth{
+    display: block;
+  }
+  .menu{
+    display: block;
+  }
+  .sociales_no_smarth{
+    display: none;
+  }
+}
+.sociales li a.facebook{
+  background: url("../images/general/facebook.png") no-repeat;
+}
+.sociales li a.twitter{
+  background: url("../images/general/twitter.png") no-repeat;
+}
+.sociales li a.youtube{
+  background: url("../images/general/youtube.png") no-repeat;
+}
+.navbar-nav li a{
+  font-family: 'Signika','Signika Regular', sans-serif !important;
+  font-size: 16px !important;
+  color: #939393 !important;
+  border-right: 1px solid #e4e4e4;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  text-align: center;
+}
+.sin_lin{
+  border-right: none !important;
+}
+.navbar-nav li a:hover{ 
+  color: #1d407b !important;
+}
+.cabezal{
+  background: #fff !important;
+  border-top: 4px solid #a0d2fc !important;
+  border-bottom: 1px solid #a0d2fc !important;
+}
+.la{
+  display: inline-block; margin: 0 2px;
+}
+footer{  
+  background: #16377a;
+  width: 100%;
+}
+footer ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+footer ul li{
+  display: inline-block;
+}
+footer ul li a{
+  font-family: 'Signika','Signika Regular', sans-serif !important;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 3px 30px;
+  display: block;
+  border-right: 1px solid #fff;
+  margin: 5px 0;
+}
+footer ul li a:hover{
+  color: #8cc3e7 !important;
+  text-decoration: none;
+}
+.copyright{
+  font-family: arial;
+  color: #fff;
+  font-size: 12px;
+  margin: 8px 0;
+  float: right;
+}
+.elite_logo{
+  margin-top: -5px !important;
+}
+.p_botones{
+  padding: 0 45px;
+}
+@media (min-width: 1200px) {
+  .container{
+      max-width: 1000px;
+  }
+}
+@media (max-width: 991px) {
+  header{
+    height: 82px;
+  }
+  .navbar-nav li a{
+    font-size: 13px !important;
+  }
+}
+@media (max-width: 767px) {  
+  header{
+    height: 204px;
+  }
+  .navbar-brand{
+    height: auto !important;
+  }
+  .navbar-nav li a{
+    border-top: 1px dashed #f1f1f1;
+    font-size: 16px !important;
+  } 
+  .elite_logo{
+    width: 100%;
+    margin-top: 3px !important;
+    text-align: center;
+  } 
+  .navbar-brand{
+    float: none !important;
+  }
+  .p_botones{
+    padding: 0;
+  }
+}
+@media (max-width: 640px) {  
+  .copyright{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  footer ul{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 475px) {  
+  footer ul li{
+    width: 100%;    
+  }
+  footer ul li a{
+    border-right: none;
+  }
+}
+
+label.error
+{
+  margin: 0px auto;
+  width: 80%;
+  display: block;
+  font-size: 12px;
+  color: red;
+}
+
+.msj_enviado h3
+{
+  margin: 11px 0px 0px;
+  color: rgb(22, 55, 122);
+}

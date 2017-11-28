@@ -1,0 +1,73 @@
+.navbar-nav li a.m-nosotros{ 
+  color: #1d407b !important;
+}
+.full_width{
+  width: 100%;
+  height: auto;
+  background: url(../images/nosotros/textura.jpg) repeat-x center;
+}
+.imagen_int{
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+.titulo_interno{
+  color: #16377a;
+  font-size: 33px;
+  margin-top: 83px;
+  font-family: 'Convergence', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: -2px;
+}
+.parrafo_interno{
+  width: 100%;
+  height: 206px;
+}
+.parrafo_interno p{
+  color: #a3a3a3;
+  font-family: 'Signika', sans-serif !important;
+  font-size: 15px;
+  text-align: justify;
+}
+#scrollbar1{
+  margin: 0 !important;
+  width: 95% !important;
+}
+#scrollbar1 .viewport{
+  height: 197px !important;
+  background:  transparent !important;
+  margin-bottom: 15px;
+}
+#scrollbar1 .overview{
+  padding-left:0 !important;
+  padding-right:0 !important; 
+}
+.overview p{
+  color: #a3a3a3;
+  font-family: 'Signika', sans-serif !important;
+  font-size: 15px;
+  text-align: justify;
+}
+
+@media (max-width: 991px) {
+  .titulo_interno{
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 768px) {
+  .full_width{
+    background: url(../images/nosotros/textura.jpg) repeat-x bottom;
+  }
+}
+@media (max-width: 558px) {
+  .imagen_int{
+    width: 100%;
+    max-width: none;
+  }
+}
+@media (max-width: 525px) {
+  .full_width{
+    background: url(../images/nosotros/textura2.jpg) !important;
+  }
+}

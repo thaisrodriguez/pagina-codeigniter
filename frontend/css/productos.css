@@ -1,0 +1,136 @@
+.navbar-nav li a.m-productos{ 
+  color: #1d407b !important;
+}
+.full_width{
+  background: url(../images/productos/fondo-titulo.jpg) repeat-x;
+  display: table-row;
+  height: 14%;
+  width: 100%;
+}
+.full_width img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.full_width h1{
+  text-align: center;
+  margin: 0 !important
+}
+#centerlizer{
+  vertical-align: top !important;
+}
+.full_all{  
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.full_heaven{  
+  background: url(../images/productos/tira_heaven.jpg) repeat-x;
+  display: table-cell;
+  
+  vertical-align: middle;
+}
+.stage {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;    
+    height: 90%;
+    overflow: hidden;
+    z-index: 1;
+}
+.far-clouds {
+    background: transparent url(../images/productos/nubes_compress.png) 305px 102px repeat-x;
+}
+.near-clouds {
+    background: transparent url(../images/productos/nubes_compress.png) 305px 162px repeat-x;
+}
+.nom_cat{
+  color: #16377a;
+  font-size: 16px; 
+  font-family: 'Convergence', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: -1px;
+}
+.mas_detalles{
+  font-family: 'Signika', sans-serif !important;
+  font-size: 11px;
+  text-align: center;
+  border-top: 1px solid #8cc3e7;
+  border-bottom: 1px solid #8cc3e7;
+  display: block;
+  text-decoration: none;
+  padding: 2px 0;
+  width: 50%;
+  margin: 5px auto
+}
+.cat_prod a img{
+  border:0;
+}
+.cat_prod img {
+    -webkit-transition: all 1.5s ease; /* Safari and Chrome */
+    -moz-transition: all 1.5s ease; /* Firefox */
+    -o-transition: all 1.5s ease; /* IE 9 */
+    -ms-transition: all 1.5s ease; /* Opera */
+    transition: all 1.5s ease;
+}
+
+.cat_prod:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+     cursor: pointer;
+}
+/* start of modification for 5 columns */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+.row{
+  position: relative;
+  z-index: 20;
+}
+.cat_prod img{
+  max-width: 100%;
+  height: auto;
+}
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+  .col-sm-3{
+    width: 20%;
+  }
+}
+@media (max-width: 991px) {
+  .row{
+    margin-top: 55px;
+  }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+   /* end of modification for 5 columns */

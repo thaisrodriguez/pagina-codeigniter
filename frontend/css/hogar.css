@@ -1,0 +1,11 @@
+.bx-wrapper .bx-prev{
+  background: url("../images/bxslider/controls4.png") no-repeat 0 -32px !important ;
+  top: 0 !important;
+  left: 50% !important;
+  margin-left: -15px
+}
+.bx-wrapper .bx-next{
+  background: url("../images/bxslider/controls4.png") no-repeat -43px -32px !important;
+  right: 50% !important;
+  margin-right: -15px
+}

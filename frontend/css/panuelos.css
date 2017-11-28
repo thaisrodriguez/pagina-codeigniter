@@ -1,0 +1,79 @@
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+  background: #495875 !important
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #c7c7c7 !important;
+}
+.carrousel_productos{
+  margin-bottom: 16px;
+}
+.descripcion_panuelos{
+  height: 135px;
+  display: inline-block;
+  font-family: 'Signika', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  text-align: justify;
+}
+.presentacion_p{
+  
+  font-family: 'Signika', sans-serif !important;
+  font-size: 14px;
+  border-left: 1px solid #fff;
+  color: white;
+  margin:0;
+  padding-left: 15px;
+  margin-bottom: 5px;
+}
+.full_all_panuelos{  
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background: url(../images/productos/panuelos/textura_panuelos.jpg);
+}
+.center_wall_panuelos{
+  background: url(../images/productos/panuelos/fondo_panuelos.jpg) repeat-x top;
+  margin-top: 15px;
+  padding-top: 32px;
+}
+/* estados botones */
+a.active_pt{
+  text-decoration: underline;
+  color: #a87279 !important;
+}
+.pt h2 a:hover{
+  color: #a87279 !important;
+}
+/* end estados botones */
+@media (max-width: 991px) {
+    .center_wall_panuelos{
+      background: url(../images/productos/panuelos/fondo_panuelos.jpg) repeat-x 0 10%;
+    }
+    .subcategoria{
+      font-size: 36px;
+    }
+}
+@media (max-width: 767px) {
+    .center_wall_panuelos{
+      background: none !important
+    }    
+    .presentacion_p{
+    	color: #16377a;
+    }
+	.f_smarth{
+		background: url(../images/productos/panuelos/fondo_panuelos.jpg) repeat-x top;
+		padding-top:23px;
+	}
+}
+@media (max-width: 470px) {
+
+}
+@media (max-width: 390px) {
+    .bx-wrapper{
+      max-width: 230px !important;
+    }
+}
+@media (max-width: 383px) {
+
+}

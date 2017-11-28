@@ -1,0 +1,36 @@
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+  background: #16377a !important
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #8cc3e7 !important;
+}
+.full_all{  
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background: url(../images/productos/papel-higienico/textura-ph.jpg);
+}
+.center_wall{
+  background: url(../images/productos/papel-higienico/fondo-int-ph.jpg) repeat-x top;
+  margin-top: 15px;
+  padding-top: 25px;
+}
+a.active_ed{
+  text-decoration: underline;
+  color: #8cc3e7 !important;
+}
+.ph h2 a:hover{
+  color: #8cc3e7 !important;
+}
+@media (max-width: 991px) {
+    .center_wall{
+      background: url(../images/productos/papel-higienico/fondo-int-ph.jpg) repeat-x 0 10%;     
+    }
+}
+
+@media (max-width: 390px) {
+    .bx-wrapper{
+      max-width: 230px !important;
+    }
+}

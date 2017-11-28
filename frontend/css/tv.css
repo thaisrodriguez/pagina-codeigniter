@@ -1,0 +1,198 @@
+body{
+  background: url(../images/tv/tira_fondo.jpg);
+  background-repeat: repeat-x;
+  background-position: center 15%; 
+}
+.navbar-nav li a.m-tv{ 
+  color: #1d407b !important;
+}
+.regresar{
+  text-indent: -8000px;
+  position: absolute;
+  right: 2%;
+  top: 10%;
+  height: 30px;
+  width: 30px;
+  background: url(../images/tv/cerrar.png);
+  z-index: 100
+}
+.portafolio_item{
+  margin: 0;
+  padding: 0;
+}
+.portafolio_item img{
+  width: 100%;
+  height: auto;
+}
+.iconito{ 
+  display: inline-block;
+  float: right;
+}
+.sombra{
+  margin-bottom: 10px;
+}
+.sombra img{
+  width: 100%;
+  height: auto;
+}
+div.roll {
+  background:url(../images/tv/transparencia.png);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  padding: 10px;     
+}
+.roll h2{
+  font-family: 'Signika', sans-serif !important;
+  color: white;
+  font-size: 17px;
+  font-weight: 800;
+}
+.column_izq{
+  background: url(../images/tv/transparencia.png);
+  padding: 10px;
+  margin: 0;
+  min-height: 372px;
+  height: 100%;
+}
+.column_der{ 
+    margin: 0;
+    padding: 0;
+}
+.column_izq h2{
+  font-family: 'Signika', sans-serif !important;
+  color: white;
+  font-size: 17px;
+  font-weight: 800;
+}
+.descripcion, .time{
+  font-family: 'Signika', sans-serif !important;
+  font-size: 13px;
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+}
+.full_width{
+  width: 100%;
+  height: auto;  
+}
+.imagen_int{
+  max-width: 100%;
+  height: auto;
+}
+.titulo_interno{
+  color: #16377a;
+  font-size: 23px; 
+  font-family: 'Convergence', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: -1px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+.parrafo_interno{
+  width: 100%;
+  height: 206px;
+}
+.parrafo_interno p{
+  color: #a3a3a3;
+  font-family: 'Signika', sans-serif !important;
+  font-size: 15px;
+  text-align: justify;
+}
+#scrollbar1{
+  margin: 0 !important;
+  width: 95% !important;
+}
+#scrollbar1 .viewport{
+  height: 197px !important;
+  background:  transparent !important;
+  margin-bottom: 15px;
+}
+#scrollbar1 .overview{
+  padding-left:0 !important;
+  padding-right:0 !important; 
+}
+.overview p{
+  color: #a3a3a3;
+  font-family: 'Signika', sans-serif !important;
+  font-size: 15px;
+  text-align: justify;
+}
+.compartir{
+  font-family: 'Signika', sans-serif;
+  color: white;
+  font-size: 14px;
+  border-top: 1px dashed #fff;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+.paginacion{
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 300px;
+}
+.paginacion a{
+  float: left;
+  color: #a3a3a3;
+  margin: 5px;
+}
+.paginacion a:hover{
+  color: #16377a
+}
+.prev, .next{
+  width: 6px; height: 18px; text-indent: -8000px; overflow: hidden; display: block;
+}
+.prev{
+  background: url(../images/tv/prev.png) no-repeat center;
+}
+.next{
+  background: url(../images/tv/next.png) no-repeat center;
+}
+.compartir ul{
+  float: right;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.compartir ul li{
+  float: left;
+}
+.compartir ul li a{
+  text-indent: -8000px;
+  display: block;
+  width: 22px;
+  height: 22px;
+  margin: 0 2px;
+}
+.compartir ul li a:hover{
+  opacity: 0.8;
+}
+.face{
+  background: url(../images/tv/facebook.png) no-repeat;
+}
+.twit{
+  background: url(../images/tv/twitter.png) no-repeat;
+}
+.goog{
+  background: url(../images/tv/googlemas.png) no-repeat;
+}
+@media (max-width: 767px) {
+  .column_izq{
+    min-height: 100%;
+  }  
+}
+@media (max-width: 558px) {
+  .imagen_int{
+    width: 100%;
+    max-width: none;
+  }
+}
+@media (max-width: 525px) {
+  .full_width{
+    
+  }
+}

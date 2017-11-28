@@ -1,0 +1,58 @@
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+  background: #e69fa6 !important
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #c7c7c7 !important;
+}
+.descripcion-pt{
+  display: inline-block;
+  font-family: 'Signika', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  text-align: justify;
+  height: 158px;
+}
+.full_all_ptoalla{  
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background: url(../images/productos/papel-toalla/textura_pt.jpg);
+}
+.center_wall_ptoalla{
+  background: url(../images/productos/papel-toalla/fondo_pt.png) repeat-x top;
+  margin-top: 15px;
+  padding-top: 25px;
+}
+/* estados botones */
+a.active_pt{
+  text-decoration: underline;
+  color: #a87279 !important;
+}
+.pt h2 a:hover{
+  color: #a87279 !important;
+}
+/* end estados botones */
+@media (max-width: 991px) {
+    .center_wall_ptoalla{
+      background: url(../images/productos/papel-toalla/fondo_pt.png) repeat-x 0 50%;
+    }
+}
+@media (max-width: 767px) {
+    .center_wall_ptoalla{
+      background: none !important;
+    }
+	.f_smarth{
+		background: url(../images/productos/papel-toalla/fondo_pt.png) repeat-x top;
+		padding-top:23px;
+	}
+}
+@media (max-width: 390px) {
+    .bx-wrapper{
+      max-width: 230px !important;
+    }
+}
+@media (max-width: 361px) {
+
+}
+
